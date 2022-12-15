@@ -1,0 +1,147 @@
+body {
+    background-color: rgb(246, 226, 201);
+    color:#674933;
+    margin: 0;
+}
+
+.pags-header {
+    background: #ffc993;
+    background: linear-gradient(229deg, rgba(255,201,147,0.927608543417367) 28%, rgba(241,175,160,0.927608543417367) 69%);
+border-radius: 10px;
+display: flex;
+justify-content: space-evenly;
+margin: 0;
+
+}
+
+.header {
+    color: #f0f8ff;
+    padding: 10px;
+    font-size: 30px;
+    background-color: #facd81;
+    border-radius: 10px;
+}
+.header:hover{
+    background-color: rgb(250, 152, 100);
+    box-shadow: 7px 8px 9px #6a6a6a; 
+    transition: 1s;
+}
+h1 {
+  margin: 15px 0;
+}
+
+.a-texto {
+    text-decoration: none;
+    color:#946655;
+    font-weight: bold
+}
+a {
+    text-decoration: none;
+}
+
+.a-texto:hover{
+    color:#8e462c;  
+    font-size: 23px;
+    transition: 1s;
+}
+
+p {
+    font-size: 20px;
+}
+
+img{
+    height: 700px;
+    width: 700px;
+}
+
+
+* {box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 700px;
+  position: relative;
+
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+main {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+main h2 {
+  margin: 10px 20px;
+}
+.amigosvi {
+  margin-top: 120px;
+  height: 450px;
+  width: 600px;
+
+}
